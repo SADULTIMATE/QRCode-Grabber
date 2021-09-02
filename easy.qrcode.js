@@ -2113,7 +2113,7 @@
         });
 
     }
-    // CommonJS Compatibility(include NodeJS)
+    
     else if (freeModule) {
         // Node.js
         (freeModule.exports = QRCode).QRCode = QRCode;
